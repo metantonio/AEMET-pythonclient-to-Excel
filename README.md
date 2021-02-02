@@ -11,7 +11,7 @@ Se necesita tener instalado Python 3.9 (preferiblemente), el cual puede descarga
 - Python 3.9
 
 
-También es necesario instalar algunas dependencias de Python, para esto tan sólo es necesario darle doble click al archivo: "instalar dependencias.bat". Si por el contrario, se desean instalar las dependencias de Python de forma manual, es necesario ejecutar las siguientes líneas de código en el prompt:
+También es necesario instalar algunas dependencias de Python, para esto tan sólo es necesario darle doble click al archivo: `instalar dependencias.bat`. Si por el contrario, se desean instalar las dependencias de Python de forma manual, es necesario ejecutar las siguientes líneas de código en el prompt:
 
 ```sh
 $ pip3 install requests
@@ -21,7 +21,7 @@ $ python3 -m pip install pandas
 
 ## Cómo ejecuto el script de Python?
  
-Para ejecutar el script, basta con darle doble click al archivo: "double click to execute.bat". Aunque si se desea ejecutar el script manualmente, hay que abrir el prompt de Windows, navegar hasta la dirección en que están contenidos los archivos, y ejecutar:
+Para ejecutar el script, basta con darle doble click al archivo: `double click to execute.bat`. Aunque si se desea ejecutar el script manualmente, hay que abrir el prompt de Windows, navegar hasta la dirección en que están contenidos los archivos, y ejecutar:
 
 $ python3 app.py
 
@@ -31,12 +31,14 @@ Es necesario haber solicitado primero una API KEY en AEMET OpenData, la pueden s
 
 A continuación, deben conocer el rango de fechas del cuál desean solicitar la información, y el código de la estación.
 
-Seguir los pasos que se muestran en la app.
+Seguir los pasos, al pie de la letra, que se muestran en la interface de Python.
 
-## Me generó el archivo de excel .CSV pero no está tabulado.
+## Me generó el archivo de excel FINAL.CSV pero no está tabulado.
 
 Para esto hay que elegir toda la columna donde está la información solicitada (generalmente toda la columna A), ir a la pestana de Datos> Texto a Columna.
 Y elegir el delimitador, el cual probablemente es (,) si la pc está en castellano y (;) si está en inglés.
+
+También se genera un archivo llamado `newfile.json` el cuál contiene la información original en formato .json de la url solicitada
 
 Para modificaciones, o solicitudes me pueden escribir a:
 antonio_martinez88@hotmail.com
