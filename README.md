@@ -8,7 +8,7 @@ Descargar los archivos en una misma carpeta.
 
 Se necesita tener instalado Python 3.9 (preferiblemente), el cual puede descargarse desde la tienda oficial de Microsoft de forma gratuita.
 
-- Python 3.9
+- [Python 3.9](https://www.microsoft.com/store/productId/9P7QFQMJRFP7)
 
 
 También es necesario instalar algunas dependencias de Python, para esto tan sólo es necesario darle doble click al archivo: `instalar dependencias.bat`. Si por el contrario, se desean instalar las dependencias de Python de forma manual, es necesario ejecutar las siguientes líneas de código en el prompt:
